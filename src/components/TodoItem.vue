@@ -1,5 +1,5 @@
 <template>
-  <li @click="handledelete">{{content}}</li>
+  <li class="item" @click="handledelete">{{content}}</li>
 </template>
 
 <script>
@@ -16,5 +16,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+   .item { color:green}
 
 </style>
