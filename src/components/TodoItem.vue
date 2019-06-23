@@ -8,7 +8,8 @@ export default {
  methods:{
    handledelete (){
     alert(this.index);
-    this.$emit('delete', this.index)   
+    this.$emit('delete', this.index)  
+     
    }
  }
 }
